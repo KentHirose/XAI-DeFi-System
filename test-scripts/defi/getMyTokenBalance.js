@@ -1,10 +1,10 @@
 const MyToken = artifacts.require('MyToken');
-const FarmToken = artifacts.require("FarmToken");
+const DepositedToken = artifacts.require("DepositedToken");
 
 module.exports = async function(callback) {
     myToken = await MyToken.deployed()
-    farmToken = await FarmToken.deployed()
-    balance = await myToken.balanceOf(farmToken.address)
+    depositedToken = await DepositedToken.deployed()
+    balance = await myToken.balanceOf(depositedToken.address)
     console.log(web3.utils.fromWei(balance.toString()))
     callback();
 }
