@@ -8149,12 +8149,12 @@
         }
       },
       "links": {},
-      "address": "0xab3e30FDD9c95981684c6269D7F9F1A258e4740E",
-      "transactionHash": "0x58699edd57654dfcb12359f7319ecac08ae54420cd1572fff8fa7ca9deeeab72"
+      "address": "0x398F19DF3aEe125dffc7d0E6c2bBC8AcA448491D",
+      "transactionHash": "0x8c459a1568e9b7f5ebb43c0632df321bb086e9b8c485ca0f9b3899754bb55c84"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-08-16T06:31:06.293Z",
+  "updatedAt": "2023-08-20T23:55:02.003Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
