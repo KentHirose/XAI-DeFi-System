@@ -17,7 +17,10 @@ contract NFT is ERC721 {
       string name;
       string image;
       string description;
-      uint16 price;
+      // 
+      // 価格が流動できるようにする
+      // 
+      uint16 price; 
       address seller;
       address[] stockholders;
       uint16[] stockholding;
